@@ -5,7 +5,7 @@ st.set_page_config(layout="wide")
 st.title("📊 Análise e Simulador de Desconto por Banco")
 
 # 📁 Caminho do arquivo CSV (ajuste conforme necessário)
-CAMINHO_ARQUIVO = "C:\\Users\\pablo paiva\\PROJETOS\\CÓDIGO\\testesimular2024 - RELATÓRIO ANUAL 2024  - Página1 (4).csv"
+CAMINHO_ARQUIVO = "relatorio.csv"
 
 # 📄 Leitura do arquivo
 df = pd.read_csv(CAMINHO_ARQUIVO)
