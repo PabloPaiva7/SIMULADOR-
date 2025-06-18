@@ -4,11 +4,9 @@ import pandas as pd
 st.set_page_config(layout="wide")
 st.title("📊 Análise e Simulador de Desconto por Banco")
 
-# 📁 Caminho do arquivo CSV (ajuste conforme necessário)
-CAMINHO_ARQUIVO = "relatorio.csv"
 
-# 📄 Leitura do arquivo
-df = pd.read_csv(CAMINHO_ARQUIVO)
+df = pd.read_csv("relatorio.csv")
+
 
 # 🔧 Tratamento da coluna percentual
 df['PERCENTUAL'] = df['PERCENTUAL'].str.replace('%', '').str.replace(',', '.').astype(float)
