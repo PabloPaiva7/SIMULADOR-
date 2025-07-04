@@ -30,7 +30,7 @@ Valor final com o desconto aplicado
 mathematica
 Copiar
 Editar
-C:\Users\pablo paiva\PROJETOS\CÓDIGO\relatorio.csv
+relatorio.csv
 (⚠️ Você deve ajustar o caminho do arquivo conforme a sua máquina ou ambiente.)
 
 3️⃣ Trata a coluna PERCENTUAL:
